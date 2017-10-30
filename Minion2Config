@@ -1,6 +1,6 @@
 nano /etc/sysconfig/flanneld
 # Make sure the content is compliant to as mentioned below
-FLANNEL_ETCD="http://masterserverip:2379"
+FLANNEL_ETCD_ENDPOINTS="http://masterserverip:2379"
 #Save and Close the file with Ctrl+X
 nano /etc/kubernetes/config
 # Make sure the content is compliant to as mentioned below
