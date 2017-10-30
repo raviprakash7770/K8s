@@ -1,0 +1,3 @@
+yum install cockpit cockpit-kubernetes
+systemctl enable cockpit.socket
+systemctl start cockpit.socket
