@@ -1,5 +1,7 @@
 yum -y install nano wget tree
 
+yum -y install *rhsm*
+
 setenforce 0
 
 systemctl stop firewalld
