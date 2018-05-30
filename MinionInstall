@@ -2,6 +2,8 @@ yum -y install nano wget tree
 
 yum -y install *rhsm*
 
+yum install -y subscription-manager
+
 setenforce 0
 
 systemctl stop firewalld
